@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include  "about.h"
 
 namespace Ui {
 class MainWindow;
@@ -39,6 +40,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    About *about;
 };
 
 #endif // MAINWINDOW_H
