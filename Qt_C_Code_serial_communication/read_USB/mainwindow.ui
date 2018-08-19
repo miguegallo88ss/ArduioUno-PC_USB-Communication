@@ -27,23 +27,41 @@
     <property name="title">
      <string>File</string>
     </property>
+    <widget class="QMenu" name="menuBud_Rate">
+     <property name="title">
+      <string>Baud Rate</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/rec/resource/bud_rate.jpg</normaloff>:/rec/resource/bud_rate.jpg</iconset>
+     </property>
+     <property name="separatorsCollapsible">
+      <bool>false</bool>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="baud_300"/>
+     <addaction name="baud_1200"/>
+     <addaction name="baud_2400"/>
+     <addaction name="baud_4800"/>
+     <addaction name="baud_9600"/>
+     <addaction name="baud_19200"/>
+     <addaction name="baud_38400"/>
+     <addaction name="baud_57600"/>
+     <addaction name="baud_115200"/>
+    </widget>
     <addaction name="separator"/>
-    <addaction name="actionBud_Rate"/>
-    <addaction name="actionAbout"/>
+    <addaction name="menuBud_Rate"/>
+    <addaction name="actionAbout_2"/>
+    <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuView">
     <property name="title">
      <string>View</string>
     </property>
-   </widget>
-   <widget class="QMenu" name="menuExit">
-    <property name="title">
-     <string>Exit</string>
-    </property>
+    <addaction name="separator"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuView"/>
-   <addaction name="menuExit"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -54,18 +72,73 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionAbout">
+  <action name="actionAbout_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>resource/quation_symbol.png</normaloff>resource/quation_symbol.png</iconset>
+   </property>
    <property name="text">
     <string>About</string>
    </property>
   </action>
-  <action name="actionBud_Rate">
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/resource/exit.png</normaloff>:/rec/resource/exit.png</iconset>
+   </property>
    <property name="text">
-    <string>Bud Rate</string>
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="baud_9600">
+   <property name="text">
+    <string>9600</string>
+   </property>
+  </action>
+  <action name="baud_300">
+   <property name="text">
+    <string>300</string>
+   </property>
+  </action>
+  <action name="baud_1200">
+   <property name="text">
+    <string>1200</string>
+   </property>
+  </action>
+  <action name="baud_2400">
+   <property name="text">
+    <string>2400</string>
+   </property>
+  </action>
+  <action name="baud_4800">
+   <property name="text">
+    <string>4800</string>
+   </property>
+  </action>
+  <action name="baud_19200">
+   <property name="text">
+    <string>19200</string>
+   </property>
+  </action>
+  <action name="baud_38400">
+   <property name="text">
+    <string>38400</string>
+   </property>
+  </action>
+  <action name="baud_57600">
+   <property name="text">
+    <string>57600</string>
+   </property>
+  </action>
+  <action name="baud_115200">
+   <property name="text">
+    <string>115200</string>
    </property>
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
  <connections/>
 </ui>
