@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include  "about.h"
+#include <QTextStream>
+#include "iostream"
 
 namespace Ui {
 class MainWindow;

@@ -5,9 +5,12 @@
 #include "about.h"
 #include "mainwindow.h"
 
-class to_use_global_variables {
-public:
-    int bud_rate = 0;
-};
+QT_BEGIN_NAMESPACE
+class QString;
+QT_END_NAMESPACE
+
+//Variable Feddinitions
+ static int bud_rate;
+
 
 #endif // VAR_H

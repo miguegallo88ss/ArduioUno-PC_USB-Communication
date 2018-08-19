@@ -2,6 +2,8 @@
 #define ABOUT_H
 
 #include <QDialog>
+#include <QTextStream>
+#include "iostream"
 
 namespace Ui {
 class About;
