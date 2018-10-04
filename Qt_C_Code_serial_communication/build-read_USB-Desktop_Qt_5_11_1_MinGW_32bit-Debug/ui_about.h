@@ -31,14 +31,15 @@ public:
     {
         if (About->objectName().isEmpty())
             About->setObjectName(QStringLiteral("About"));
-        About->resize(384, 199);
+        About->resize(400, 205);
         About->setSizeGripEnabled(false);
+        About->setModal(true);
         about_ok_button = new QPushButton(About);
         about_ok_button->setObjectName(QStringLiteral("about_ok_button"));
-        about_ok_button->setGeometry(QRect(300, 170, 75, 23));
+        about_ok_button->setGeometry(QRect(310, 170, 75, 23));
         verticalLayoutWidget = new QWidget(About);
         verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(0, 10, 381, 101));
+        verticalLayoutWidget->setGeometry(QRect(10, 10, 381, 105));
         About_Info_layout = new QVBoxLayout(verticalLayoutWidget);
         About_Info_layout->setObjectName(QStringLiteral("About_Info_layout"));
         About_Info_layout->setContentsMargins(0, 0, 0, 0);
@@ -68,9 +69,9 @@ public:
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">About:</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -q"
-                        "t-block-indent:0; text-indent:0px;\">	This Tool is intended to Communicate with a Device via USB.</p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">	This Tool comes with no waranty watsoever.</p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">	</p></body></html>", nullptr));
+                        "t-block-indent:0; text-indent:0px;\">	This Tool is intended to Communicate with a Device</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">	via  USB.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">	This Tool comes with no waranty watsoever.</p></body></html>", nullptr));
     } // retranslateUi
 
 };

@@ -229,6 +229,7 @@ debug/moc_mainwindow.cpp: D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QMainWindow 
 		../read_USB/about.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QDialog \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qdialog.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QTextStream \
 		../read_USB/mainwindow.h \
 		debug/moc_predefs.h \
 		D:/Qt/5.11.1/mingw53_32/bin/moc.exe
@@ -338,6 +339,7 @@ debug/moc_about.cpp: D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QDialog \
 		D:/Qt/5.11.1/mingw53_32/include/QtCore/qfiledevice.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/qvector2d.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/qtouchdevice.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QTextStream \
 		../read_USB/about.h \
 		debug/moc_predefs.h \
 		D:/Qt/5.11.1/mingw53_32/bin/moc.exe
@@ -480,6 +482,7 @@ debug/main.o: ../read_USB/main.cpp ../read_USB/mainwindow.h \
 		../read_USB/about.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QDialog \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qdialog.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QTextStream \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QApplication \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qapplication.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -487,7 +490,8 @@ debug/main.o: ../read_USB/main.cpp ../read_USB/mainwindow.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qdesktopwidget.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/qguiapplication.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/qinputmethod.h \
-		../read_USB/var.h
+		../read_USB/var.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QString
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\read_USB\main.cpp
 
 debug/mainwindow.o: ../read_USB/mainwindow.cpp ../read_USB/mainwindow.h \
@@ -600,6 +604,7 @@ debug/mainwindow.o: ../read_USB/mainwindow.cpp ../read_USB/mainwindow.h \
 		../read_USB/about.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QDialog \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qdialog.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QTextStream \
 		ui_mainwindow.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtCore/QVariant \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/QIcon \
@@ -625,7 +630,8 @@ debug/mainwindow.o: ../read_USB/mainwindow.cpp ../read_USB/mainwindow.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QMessageBox \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qmessagebox.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/QCloseEvent \
-		../read_USB/var.h
+		../read_USB/var.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QString
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\read_USB\mainwindow.cpp
 
 debug/about.o: ../read_USB/about.cpp ../read_USB/about.h \
@@ -733,6 +739,7 @@ debug/about.o: ../read_USB/about.cpp ../read_USB/about.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtCore/qfiledevice.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/qvector2d.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtGui/qtouchdevice.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QTextStream \
 		ui_about.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtCore/QVariant \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QApplication \
@@ -765,7 +772,8 @@ debug/about.o: ../read_USB/about.cpp ../read_USB/about.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/QMainWindow \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qmainwindow.h \
 		D:/Qt/5.11.1/mingw53_32/include/QtWidgets/qtabwidget.h \
-		../read_USB/mainwindow.h
+		../read_USB/mainwindow.h \
+		D:/Qt/5.11.1/mingw53_32/include/QtCore/QString
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\about.o ..\read_USB\about.cpp
 
 debug/qrc_resource.o: debug/qrc_resource.cpp 

@@ -15,6 +15,6 @@ int main(int argc, char *argv[])
     w.show();
 
 //    printf(bud_rate);
-    std::cout << bud_rate << endl;
+    std::cout << bud_rate;
     return a.exec();
 }
